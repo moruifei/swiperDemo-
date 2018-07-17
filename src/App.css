@@ -1,0 +1,49 @@
+
+.App{
+    margin:100px 400px;
+    
+}
+html, body {
+    position: relative;
+    height: 100%;
+  }
+  body {
+    background: #000;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+  }
+.App {
+    width:600px;
+}
+.swiper-container {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .gallery-thumbs .swiper-slide {
+    background-size: cover;
+    background-position: center;
+  }
+  .gallery-top {
+    height: 80%;
+    width: 600px;
+  }
+  .gallery-thumbs {
+    width:80%;
+    height:200px;
+    box-sizing: border-box;
+    padding: 10px 0;
+  }
+  .gallery-thumbs .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.9;
+  }
+  .gallery-thumbs .swiper-slide-active {
+    opacity: 1;
+  }
+
